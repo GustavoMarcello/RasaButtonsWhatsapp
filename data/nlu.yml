@@ -1,0 +1,61 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Oi
+    - Olá
+    - Eae
+    - tudo bem?
+    - bom dia
+    - boa tarde
+    - boa noite
+    - Fala mano
+    - oi
+    - olá
+    - ola
+
+- intent: mussarela
+  examples: |
+    - mussarela
+    - Mussarela
+
+- intent: calabresa
+  examples: |
+    - calabresa
+    - Calabresa
+  
+- intent: goodbye
+  examples: |
+    - tchau
+    - xau
+    - até mais
+    - flw
+    - adeus
+
+- intent: affirm
+  examples: |
+    - sim
+    - s
+    - uhum
+    - claro
+    - com ctz
+    - com certeza
+    - certo
+    - ok
+
+- intent: deny
+  examples: |
+    - não
+    - n
+    - nunca
+    - ja mais
+    - negativo
+
+
+- intent: bot_challenge
+  examples: |
+    - vc é um bot?
+    - quem é vc?
+    - você é um humano?
+    - quem é você?
